@@ -1,0 +1,23 @@
+1: install git and create GitHub account
+
+2: create local git repo
+ 2.1: move to where you want to keep your project in terminal
+	-cd ~/Desktop
+	-mkdir myproject
+	-cd my project/
+ 2.3: to initialize a git repo in the root of the folder
+ 	-git init
+
+3: add new file to repo
+	-using any text editor or running touch command
+	-touch sam.txt
+	-use git status command to see which files git knows exists
+	
+4: add a file to staging environment(index)
+5: create a commit
+6: create a new branch
+7: create a new repository on GitHub
+8: push a branch to GitHub
+9: create a pull request (PR)
+10: merge a pull request
+11: get changes on GItHub back to your computer
