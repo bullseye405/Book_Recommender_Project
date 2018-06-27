@@ -1,3 +1,5 @@
+git tutorial
+
 1: install git and create GitHub account
 
 2: create local git repo
@@ -28,14 +30,27 @@
 	-git push origin <name_of_branch>
  6.4: show all braches
 	-git branch(branch with * is current branch)
-	
-	
+		
 7: create a new repository on GitHub
 	-create repo
 	-git remote add origin <repo link>
 	-git push -u origin master
 
 8: push a branch to GitHub
+ -by alias name (essentially shorthand for the remote repository's UR): git push git@github.com:git/git.git <yourbranchname>
+ -or simply: git push origin <yourbranchname>
+
 9: create a pull request (PR)
+	-to alert repo's owner that you want to make some changes to their code
+
 10: merge a pull request
+	-merges changes to the master branch
+	-delete the branch after merging, too many branches can become messy
+	-commits can be reverted using hash code
+
 11: get changes on GItHub back to your computer
+ 11.1: in order ot get most recent changes 
+	-git pull origin master
+ 11.2: git log command to see all new commits
+
+	
