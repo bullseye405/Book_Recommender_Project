@@ -1,5 +1,8 @@
 git tutorial
 
+git config --global user.name "samir prajapati"
+git config --global  user.email "bullseye405@gmail.com"
+
 1: install git and create GitHub account
 
 2: create local git repo
