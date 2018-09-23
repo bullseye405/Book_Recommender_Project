@@ -1,2 +1,7 @@
 hellow 
 master or samir?
+
+git add project
+git add project/*
+commit
+push
