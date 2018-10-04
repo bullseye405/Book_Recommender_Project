@@ -56,4 +56,9 @@ git config --global  user.email "bullseye405@gmail.com"
 	-git pull origin master
  11.2: git log command to see all new commits
 
+
+To add a foler to repo
+	-first add the folder : git add myproject
+	-then : git add my_project/*
+
 	
